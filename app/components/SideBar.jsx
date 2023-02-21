@@ -36,8 +36,7 @@ export default function SideBar() {
 
         <div className="hoverEffect text-gray-700 flex items-center justify-ceter xl:justify-start mt-auto">
           <img className="h-10 w-10 rounded-full xl:mr-2"
-           src="https://www.rudaw.net/s3/rudaw.net/ContentFiles/713717Image1.jpg?   
-           version=4980941" 
+           src="https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_400x400.jpg" 
           alt="user-img">
 
           </img>
