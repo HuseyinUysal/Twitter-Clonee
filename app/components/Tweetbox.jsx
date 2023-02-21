@@ -11,7 +11,7 @@ function TweetBox() {
 
     db.collection("posts").add({
       displayName: "Hüseyin Uysal",
-      username: "husso",
+      username: "hussoo",
       text: tweetMessage,
       image: tweetImage,
       avatar:
