@@ -9,31 +9,6 @@ import {
   } from "@heroicons/react/outline";
   import { HeartIcon as HeartIconFilled } from "@heroicons/react/solid";
 
-const likeBtn = document.querySelector('.heart-icon');
-const numberOfLikesElement = document.querySelector('.number-of-likes');
-// get the value from the HTML element
-let numberOfLikes = Number.parseInt(numberOfLikesElement.textContent, 10);
-let isLiked = false;
-// Functions
-const likeClick = () => {
-// if the like button hasn't been clicked
-  if (!isLiked) {
-    likeBtn.classList.add('isLiked');
-    numberOfLikes++;
-    numberOfLikesElement.textContent = numberOfLikes;
-    isLiked = !isLiked;
-  }
-// if the like button has been clicked
- else {
-    likeBtn.classList.remove('isLiked');
-    numberOfLikes--;
-    numberOfLikesElement.textContent = numberOfLikes;
-    isLiked = !isLiked;
-  }
-};
-// Event Listeners
-likeBtn.addEventListener('click', likeClick);
-
 export default function Post({
     displayName,
     username,
@@ -69,7 +44,7 @@ export default function Post({
             </div>
             <TrashIcon className="h-9 w-9 hoverEffect p-2 hover:text-red-600 hover:bg-red-100" />
             <div className="flex items-center">
-            <HeartIcon onClick={myFunction(this)} className="h-9 w-9 hoverEffect p-2 hover:text-red-600 hover:bg-red-100 focus:ring-red-300" />
+            <HeartIcon className="h-9 w-9 hoverEffect p-2 hover:text-red-600 hover:bg-red-100 focus:ring-red-300" />
             </div>
             <ShareIcon className="h-9 w-9 hoverEffect p-2 hover:text-sky-500 hover:bg-sky-100" />
             <ChartBarIcon className="h-9 w-9 hoverEffect p-2 hover:text-sky-500 hover:bg-sky-100" />

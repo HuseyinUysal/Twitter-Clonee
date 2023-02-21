@@ -117,7 +117,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/styles/app.css
-var app_default = "/build/_assets/app-VIIUIJDE.css";
+var app_default = "/build/_assets/app-W2A5AY4D.css";
 
 // app/root.jsx
 var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime");
@@ -296,10 +296,7 @@ function TweetBox() {
 var Tweetbox_default = TweetBox;
 
 // app/components/Post.jsx
-var import_react4 = require("react"), import_outline = require("@heroicons/react/outline"), import_solid = require("@heroicons/react/solid"), import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), likeBtn = document.querySelector(".heart-icon"), numberOfLikesElement = document.querySelector(".number-of-likes"), numberOfLikes = Number.parseInt(numberOfLikesElement.textContent, 10), isLiked = !1, likeClick = () => {
-  isLiked ? (likeBtn.classList.remove("isLiked"), numberOfLikes--, numberOfLikesElement.textContent = numberOfLikes, isLiked = !isLiked) : (likeBtn.classList.add("isLiked"), numberOfLikes++, numberOfLikesElement.textContent = numberOfLikes, isLiked = !isLiked);
-};
-likeBtn.addEventListener("click", likeClick);
+var import_react4 = require("react"), import_outline = require("@heroicons/react/outline"), import_solid = require("@heroicons/react/solid"), import_jsx_dev_runtime4 = require("react/jsx-dev-runtime");
 function Post({
   displayName,
   username,
@@ -310,11 +307,11 @@ function Post({
   return /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex p-3 border-b border-gray-200", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "h-11 w-11 rounded-full mr-4", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { src: avatar, alt: "" }, void 0, !1, {
       fileName: "app/components/Post.jsx",
-      lineNumber: 48,
+      lineNumber: 23,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/components/Post.jsx",
-      lineNumber: 47,
+      lineNumber: 22,
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex-1", children: [
@@ -325,7 +322,7 @@ function Post({
             " "
           ] }, void 0, !0, {
             fileName: "app/components/Post.jsx",
-            lineNumber: 53,
+            lineNumber: 28,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("span", { className: "text-sm sm:text-[15px]", children: [
@@ -333,81 +330,81 @@ function Post({
             username
           ] }, void 0, !0, {
             fileName: "app/components/Post.jsx",
-            lineNumber: 57,
+            lineNumber: 32,
             columnNumber: 13
           }, this)
         ] }, void 0, !0, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 52,
+          lineNumber: 27,
           columnNumber: 9
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_outline.DotsHorizontalIcon, { className: "h-10 hoverEffect w-10 hover:bg-sky-100 hover:text-sky-500 p-2 " }, void 0, !1, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 61,
+          lineNumber: 36,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Post.jsx",
-        lineNumber: 51,
+        lineNumber: 26,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("p", { className: "text-gray-800 text-[15px sm:text-[16px] mb-2", children: text }, void 0, !1, {
         fileName: "app/components/Post.jsx",
-        lineNumber: 63,
+        lineNumber: 38,
         columnNumber: 21
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("img", { className: "rounded-2xl mr-2", src: image, alt: "" }, void 0, !1, {
         fileName: "app/components/Post.jsx",
-        lineNumber: 64,
+        lineNumber: 39,
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex justify-between text-gray-500 p-2", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex items-center select-none", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_outline.ChatIcon, { className: "h-9 w-9 hoverEffect p-2 hover:text-sky-500 hover:bg-sky-100" }, void 0, !1, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 68,
+          lineNumber: 43,
           columnNumber: 13
         }, this) }, void 0, !1, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 67,
+          lineNumber: 42,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_outline.TrashIcon, { className: "h-9 w-9 hoverEffect p-2 hover:text-red-600 hover:bg-red-100" }, void 0, !1, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 70,
+          lineNumber: 45,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_outline.HeartIcon, { onClick: myFunction(this), className: "h-9 w-9 hoverEffect p-2 hover:text-red-600 hover:bg-red-100 focus:ring-red-300" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { className: "flex items-center", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_outline.HeartIcon, { className: "h-9 w-9 hoverEffect p-2 hover:text-red-600 hover:bg-red-100 focus:ring-red-300" }, void 0, !1, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 72,
+          lineNumber: 47,
           columnNumber: 13
         }, this) }, void 0, !1, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 71,
+          lineNumber: 46,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_outline.ShareIcon, { className: "h-9 w-9 hoverEffect p-2 hover:text-sky-500 hover:bg-sky-100" }, void 0, !1, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 74,
+          lineNumber: 49,
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_outline.ChartBarIcon, { className: "h-9 w-9 hoverEffect p-2 hover:text-sky-500 hover:bg-sky-100" }, void 0, !1, {
           fileName: "app/components/Post.jsx",
-          lineNumber: 75,
+          lineNumber: 50,
           columnNumber: 13
         }, this)
       ] }, void 0, !0, {
         fileName: "app/components/Post.jsx",
-        lineNumber: 66,
+        lineNumber: 41,
         columnNumber: 13
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/Post.jsx",
-      lineNumber: 50,
+      lineNumber: 25,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Post.jsx",
-    lineNumber: 46,
+    lineNumber: 21,
     columnNumber: 5
   }, this);
 }
@@ -735,7 +732,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "9012ee88", entry: { module: "/build/entry.client-YWEWUQSM.js", imports: ["/build/_shared/chunk-OHRJKM76.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RA4BY6ZY.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-TKHFXRYE.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, url: "/build/manifest-9012EE88.js" };
+var assets_manifest_default = { version: "e0e5b39c", entry: { module: "/build/entry.client-YWEWUQSM.js", imports: ["/build/_shared/chunk-OHRJKM76.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-DF47SKJ7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-CMUP5GTM.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, url: "/build/manifest-E0E5B39C.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", future = { unstable_cssModules: !1, unstable_cssSideEffectImports: !1, unstable_dev: !1, unstable_vanillaExtract: !1, v2_errorBoundary: !1, v2_meta: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
